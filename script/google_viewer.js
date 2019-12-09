@@ -10,6 +10,6 @@ $(function($,undefined){
               }).attr('target',opts.target);
         });
   });		
-    $('#content').googleViewer({'formats':'doc,pdf,docx', 'target':'_self'});
+    $('#resume').googleViewer({'formats':'doc,pdf,docx', 'target':'_self'});
     
-  });
+})(jQuery);
