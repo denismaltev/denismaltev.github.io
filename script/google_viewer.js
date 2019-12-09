@@ -12,4 +12,4 @@ $(function($,undefined){
   });		
     $('#content').googleViewer({'formats':'doc,pdf,docx', 'target':'_self'});
     
-  })(jQuery);
+  });
