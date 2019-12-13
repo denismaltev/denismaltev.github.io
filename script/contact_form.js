@@ -1,3 +1,5 @@
+//  EMAILJS: https://dashboard.emailjs.com/
+
 var myform = $("form#myform");
 myform.submit(function(event){
 	event.preventDefault();

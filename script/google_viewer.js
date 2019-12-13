@@ -1,3 +1,4 @@
+// Google viewer
 $(function($,undefined){
     $.fn.googleViewer = (function(o){   
         var opts = $.extend({formats:"doc",target:'_blank'},o),sel = '',fm=opts.formats.split(',');
